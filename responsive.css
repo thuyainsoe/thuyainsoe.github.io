@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1000px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    padding: 10px 20px;
+  }
+
+  header .logo {
+    font-size: 1em;
+  }
+
+  header .logo span {
+    display: none;
+  }
+
+  header.sticky {
+    padding: 10px 20px;
+  }
+
+  header ul li a {
+    color: white;
+  }
+
+  header ul {
+    position: absolute;
+    width: 60%;
+    left: 0;
+    transform: translateX(-100%);
+    height: 100vh;
+    background-color: black;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+
+  header ul li {
+    margin: 20px;
+  }
+
+  .burger {
+    display: block;
+  }
+  /*Home Responsive*/
+
+  .banner {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+  }
+
+  .banner h3 {
+    font-size: 0.8em;
+  }
+  .firstSectionHeader h2 {
+    font-size: 1em;
+  }
+
+  /*News*/
+  .news {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .news .tab-new {
+    width: 95%;
+    height: 100%;
+    border: 0.1px solid black;
+    margin: 10px auto;
+  }
+
+  .tab-new img {
+    width: 100%;
+  }
+
+  .tab-new h3 {
+    padding: 20px 20px 0px 20px;
+  }
+
+  .tab-new p {
+    padding: 20px;
+    line-height: 1.5em;
+    font-weight: 800;
+  }
+
+  .tab-new .tabWriter {
+    padding: 0 20px 20px 20px;
+    color: blue;
+  }
+
+  /*About Us Responsive*/
+  
+  /*About Us Responsive End*/
+  /*Responsive Footer*/
+
+  .Footer {
+    flex-direction: column;
+    padding: 100px 50px;
+  }
+
+  .Footer .FooterContact {
+    font-size: 0.9em;
+    margin-top: 20px;
+  }
+
+  footer {
+    padding: 30px 0 30px 0;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  /*Contact Us Responsive*/
+
+  
+}
