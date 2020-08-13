@@ -232,3 +232,84 @@ footer {
   transform: rotate(45deg) translate(-5px,-6px);
 }
 
+/*Players*/
+.playerHeader h1 {
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-left: 25px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.playerPosition h1 {
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-left: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.players {
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+  justify-content: space-around;
+  display: flex;
+}
+
+.playerBg {
+  position: relative;
+  width: 30%;
+}
+
+.player-tab {
+  background-image: url('Image/PlayerImg/PlayerBg.jpg');
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 20px;
+}
+
+.player-tab::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.player-tab img {
+  width: 30%;
+  z-index: 100;
+}
+
+.player-tab h2 {
+  z-index: 100;
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 10px 0 5px 0;
+}
+
+.player-tab h3 {
+  z-index: 100;
+  color: white;
+  font-size: 0.95em;
+  letter-spacing: 1.5px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.player-tab h3 span {
+  margin: 0 50px;
+}
+
+
