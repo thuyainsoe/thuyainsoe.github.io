@@ -46,6 +46,32 @@
     display: block;
   }
   /*Home Responsive*/
+  .tableContainer {
+    width: 99%;
+  }
+
+  .table td,
+  .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 0.9em;
+  }
+
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .table tr:hover {
+    background-color: #ddd;
+  }
+
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+  }
 
   .banner {
     width: 100%;
