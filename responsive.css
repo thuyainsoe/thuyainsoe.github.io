@@ -152,10 +152,33 @@
   .player-tab::before {
     display: none;
   }
-  
+  /*Trophy Responsive*/
    .trophyBanner {
     height: 50vh;
     background-size: cover;
+  }
+
+  .trophyContainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trophyTab {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .trophyTab h1 {
+    padding-bottom: 15px;
+    font-size: 1em;
+  }
+
+  .trophyDetail p {
+    padding: 15px;
+  }
   }
 
 }
