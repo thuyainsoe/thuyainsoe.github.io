@@ -312,4 +312,13 @@ footer {
   margin: 0 50px;
 }
 
+/*Trophy Page*/
+.trophyBanner {
+  background-image: url('Image/Trophy.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+
+
 

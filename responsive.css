@@ -152,4 +152,13 @@
   .player-tab::before {
     display: none;
   }
+  
+   .trophyBanner {
+    height: 50vh;
+    background-size: cover;
+  }
+
 }
+
+
+
