@@ -130,6 +130,41 @@ header.sticky .burger div {
   background-color: #fff;
 }
 
+/*Chelsea Table Average*/
+
+.tableContainer {
+  width: 90%;
+  margin: 20px auto;
+}
+.table {
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: darkblue;
+  color: white;
+}
+
+
 /*FirstSection*/
 
 .firstSectionHeader h2 {
@@ -138,8 +173,8 @@ header.sticky .burger div {
   letter-spacing: 2px;
   padding: 10px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*News*/
