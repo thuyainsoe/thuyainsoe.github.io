@@ -320,5 +320,34 @@ footer {
 }
 
 
+.trophyContainer {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.trophyTab {
+  width: 30%;
+  height: 100%;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.trophyDetail {
+  display: flex;
+  align-items: center;
+}
+
+.trophyTab h1 {
+  padding-bottom: 15px;
+  font-size: 1em;
+}
+
+.trophyDetail p {
+  padding: 20px;
+}
+
+
 
 
