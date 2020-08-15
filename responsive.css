@@ -46,6 +46,32 @@
     display: block;
   }
   /*Home Responsive*/
+  .tableContainer {
+    width: 99%;
+  }
+
+  .table td,
+  .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 0.9em;
+  }
+
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .table tr:hover {
+    background-color: #ddd;
+  }
+
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+  }
 
   .banner {
     width: 100%;
@@ -58,6 +84,7 @@
   }
   .firstSectionHeader h2 {
     font-size: 1em;
+    margin:5px auto;
   }
 
   /*News*/
@@ -152,10 +179,33 @@
   .player-tab::before {
     display: none;
   }
-  
+  /*Trophy Responsive*/
    .trophyBanner {
     height: 50vh;
     background-size: cover;
+  }
+
+  .trophyContainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trophyTab {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .trophyTab h1 {
+    padding-bottom: 15px;
+    font-size: 1em;
+  }
+
+  .trophyDetail p {
+    padding: 15px;
+  }
   }
 
 }
