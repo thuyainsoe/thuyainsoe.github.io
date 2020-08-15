@@ -207,6 +207,12 @@
     padding: 15px;
   }
     /*History Responsive*/
+  
+  .Top-Soccer,
+    .Most-Played {
+    height: 100%;
+  }
+  
   .HG-container {
     width: 100%;
     margin: 4px auto;
