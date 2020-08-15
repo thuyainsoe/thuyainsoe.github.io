@@ -395,6 +395,8 @@ footer {
 .button #btnnn {
   padding: 10px 10px;
   margin: 20px 3px;
+  background-color: white;
+  color: #000;
 }
 .button #btnnn1 {
   padding: 10px 10px;
