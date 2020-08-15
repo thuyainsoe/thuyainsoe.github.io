@@ -383,6 +383,42 @@ footer {
   padding: 20px;
 }
 
+/*History Css*/
+.HG-container {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.HG-tab {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding-right: 20px;
+  border: 1px solid black;
+}
+
+.HG-tab p {
+  padding: 10px;
+  line-height: 1.5em;
+  font-size: 0.9em;
+}
+
+.HG-tab img {
+  width: 20%;
+}
+
+.HG-header {
+  text-align: center;
+  font-size: 0.95em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
 
 
 

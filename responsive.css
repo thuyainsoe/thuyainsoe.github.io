@@ -206,6 +206,26 @@
   .trophyDetail p {
     padding: 15px;
   }
+    /*History Responsive*/
+  .HG-container {
+    width: 100%;
+    margin: 4px auto;
+    flex-direction: column;
+  }
+
+  .HG-tab {
+    width: 90%;
+    margin: 5px auto;
+    background-color: #fff;
+    padding-right: 10px;
+  }
+
+  .HG-tab p {
+    font-size: 0.8em;
+  }
+
+  .HG-tab img {
+    width: 20%;
   }
 
 }
