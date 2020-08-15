@@ -384,6 +384,33 @@ footer {
 }
 
 /*History Css*/
+
+/*Testing*/
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button #btnnn {
+  padding: 10px 10px;
+  margin: 20px 3px;
+}
+.button #btnnn1 {
+  padding: 10px 10px;
+  background-color: black;
+  color: #fff;
+  margin: 20px 3px;
+}
+
+.Top-Soccer {
+  display: block;
+}
+
+.Most-Played {
+  display: none;
+}
+
 .HG-container {
   width: 90%;
   margin: 20px auto;
