@@ -212,6 +212,12 @@
     margin: 4px auto;
     flex-direction: column;
   }
+  
+  
+  .HG-header {
+    padding: 0 20px;
+  }
+
 
   .HG-tab {
     width: 90%;
