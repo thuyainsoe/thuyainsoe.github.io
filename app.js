@@ -14,3 +14,30 @@ window.addEventListener('scroll', function () {
   var header = document.querySelector('header');
   header.classList.toggle('sticky', window.scrollY > 0);
 });
+
+const history = () => {
+  const btn = document.querySelector('#btnnn');
+  btn.addEventListener('click', () => {
+    document.querySelector('.Top-Soccer').style.display = 'block';
+    document.querySelector('.Most-Played').style.display = 'none';
+    document.querySelector('#btnnn').style.backgroundColor = 'white';
+    document.querySelector('#btnnn').style.color = 'black';
+    document.querySelector('#btnnn1').style.backgroundColor = 'black';
+    document.querySelector('#btnnn1').style.color = 'white';
+  });
+};
+
+const history1 = () => {
+  const btn = document.querySelector('#btnnn1');
+  btn.addEventListener('click', () => {
+    document.querySelector('.Top-Soccer').style.display = 'none';
+    document.querySelector('.Most-Played').style.display = 'block';
+    document.querySelector('#btnnn').style.backgroundColor = 'black';
+    document.querySelector('#btnnn').style.color = 'white';
+    document.querySelector('#btnnn1').style.backgroundColor = 'white';
+    document.querySelector('#btnnn1').style.color = 'black';
+  });
+};
+history1();
+history();
+
