@@ -20,10 +20,10 @@ const history = () => {
   btn.addEventListener('click', () => {
     document.querySelector('.Top-Soccer').style.display = 'block';
     document.querySelector('.Most-Played').style.display = 'none';
-    document.querySelector('#btnnn').style.backgroundColor = 'white';
-    document.querySelector('#btnnn').style.color = 'black';
-    document.querySelector('#btnnn1').style.backgroundColor = 'black';
-    document.querySelector('#btnnn1').style.color = 'white';
+    document.querySelector('#btnnn').style.backgroundColor = 'black';
+    document.querySelector('#btnnn').style.color = 'white';
+    document.querySelector('#btnnn1').style.backgroundColor = 'white';
+    document.querySelector('#btnnn1').style.color = 'black';
   });
 };
 
@@ -32,10 +32,10 @@ const history1 = () => {
   btn.addEventListener('click', () => {
     document.querySelector('.Top-Soccer').style.display = 'none';
     document.querySelector('.Most-Played').style.display = 'block';
-    document.querySelector('#btnnn').style.backgroundColor = 'black';
-    document.querySelector('#btnnn').style.color = 'white';
-    document.querySelector('#btnnn1').style.backgroundColor = 'white';
-    document.querySelector('#btnnn1').style.color = 'black';
+    document.querySelector('#btnnn').style.backgroundColor = 'white';
+    document.querySelector('#btnnn').style.color = 'black';
+    document.querySelector('#btnnn1').style.backgroundColor = 'black';
+    document.querySelector('#btnnn1').style.color = 'white';
   });
 };
 history1();
