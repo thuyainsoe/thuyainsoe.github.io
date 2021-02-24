@@ -18,7 +18,7 @@ body {
   height: 200px;
 
   transform-style: preserve-3d;
-  animation: animate 20s linear infinite;
+  animation: animate 40s linear infinite;
 }
 
 @keyframes animate {
