@@ -23,11 +23,11 @@ body {
 
 @keyframes animate {
   0% {
-    transform: perspective(800px) rotateX(0deg) rotateY(5deg);
+    transform: perspective(800px) rotateX(0deg) rotateY(0deg);
   }
 
   100% {
-    transform: perspective(800px) rotateX(360deg) rotateY(5deg);
+    transform: perspective(800px) rotateX(360deg) rotateY(0deg);
   }
 }
 
